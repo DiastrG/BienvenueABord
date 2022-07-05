@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bienvenue à bord</title>
+
+    <!--Lien pour JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/27eb28d590.js" crossorigin="anonymous"></script>
+
+  
+</head>
+
+
+
+<body>
+
+  <!-- DEBUT HEADER -->
+  <header>
+
+     
+    <img src="./Annexes/background1.jpg" alt="berline">
+
+
+    <div class="introduction">
+      <h1>Bienvenue à bord </h1>
+      <p>Location de voiture 24h/24 7j/7</p>
+    </div>
+
+<!-- début zone de recherche -->
+
+    <div class="container zoneinfo front">
+
+          <div class="zonedesaisie">
+              <div class="box">
+                <div class="adresse">Adresse de départ</div>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+
+              <div class="box">
+                <div class="date">Début de location</div>
+                <i class="fa-solid fa-calendar-days"></i>
+              </div>
+
+              <div class="box">
+                  <div class="date">Fin de location</div>
+                <i class="fa-solid fa-calendar-days"></i>
+              </div>
+          
+          </div>
+            
+          <!-- <div class="box"> -->
+              <div class="container valider">Valider ma recherche</div>
+          <!-- </div> -->
+    </div>
+
+  </header>
+ 
+  <!-- FIN HEADER -->
+  <!-- DEBUT CORPS DE PAGE -->
+
+  <main>
+
+    <div id="indication">
+      <h2>7 résultats</h2>
+      <div class="btn btn-light">Prix croissant <span><img src="./Annexes/flèchebas.png" alt=""></span></div>
+    </div>
+
+
+    <div class="carte peugeot">
+
+      <div class="bloc1">
+        <div id="prevPeugeot">
+          <i class="fa-solid fa-caret-left"></i>
+          <!-- <img src="./Annexes/leftArrow.png" alt="" class="arrowleft"> -->
+        </div>
+
+        <img src="./Annexes/peugeot1.jpg" alt="Peugeot 1">
+        
+        <div id="nextPeugeot">
+          <i class="fa-solid fa-caret-right"></i>
+          <!-- <img src="./Annexes/rightArrow.png" alt="" class="arrowright"> -->
+          <!-- <span class="material-symbols-outlined">e5df</span> -->
+        </div>
+      </div>
+
+      <div class="bloc2">
+        <div class="descriptif">
+          <h2>Peugeot 208</h2>
+          <p>Diesel, 5 portes, GPS, autoradio, forfait 1000km (0,5km supplémentaire),<br>
+            999€ - Agence de Paris
+          </p>
+        </div>
+        <div class="btn btn-success">Réservez et payez</div>
+      </div>
+
+    </div>
+
+    <hr>
+
+
+
+    <div class="carte ford">
+
+      <div class="bloc1">
+        <div id="prevFord">
+          <i class="fa-solid fa-caret-left ford"></i>
+          <!-- <img src="./Annexes/leftArrow.png" alt="" class="arrowleft"> -->
+        </div>
+
+        <img src="./Annexes/fordfocus1.jpg" alt="Ford Focus">
+        
+        <div id="nextFord">
+          <i class="fa-solid fa-caret-right focus"></i>
+          <!-- <img src="./Annexes/rightArrow.png" alt="" class="arrowright"> -->
+        </div>
+      </div>
+
+      <div class="bloc2">
+        <div class="descriptif">
+          <h2>Ford Focus</h2>
+          <p>Diesel, 5 portes, GPS, autoradio, forfait 1000km (0,5km supplémentaire),<br>
+            999€
+          </p>
+        </div>
+        <div class="btn btn-success">Réservez et payez</div>
+      </div>
+
+    </div>
+
+    <hr>
+
+
+
+    <div class="carte audi">
+
+      <div class="bloc1">
+        <div id="prevAudi">
+          <i class="fa-solid fa-caret-left"></i>
+          <!-- <img src="./Annexes/leftArrow.png" alt="" class="arrowleft"> -->
+        </div>
+
+        <img src="./Annexes/audi1.jpg" alt="Audi A1">
+        
+        <div id="nextAudi">
+          <i class="fa-solid fa-caret-right"></i>
+          <!-- <img src="./Annexes/rightArrow.png" alt="" class="arrowright"> -->
+        </div>
+      </div>
+
+      <div class="bloc2">
+        <div class="descriptif">
+          <h2>Audi A1</h2>
+          <p>Diesel, 5 portes, GPS, autoradio, forfait 1000km (0,5km supplémentaire),<br>
+            1100 € - Agence de Paris
+          </p>
+        </div>
+        <div class="btn btn-success">Réservez et payez</div>
+      </div>
+
+    </div>
+
+    <hr>
+
+
+
+    <div class="carte opel">
+
+      <div class="bloc1">
+        <div id="prevOpel">
+          <i class="fa-solid fa-caret-left"></i>
+          <!-- <img src="./Annexes/leftArrow.png" alt="" class="arrowleft"> -->
+        </div>
+
+          <img src="./Annexes/opel1.jpg" alt="Opel Moka">
+                
+        <div id="nextOpel">
+          <i class="fa-solid fa-caret-right"></i>
+          <!-- <img src="./Annexes/rightArrow.png" alt="" class="arrowright"> -->
+        </div>
+      </div>
+
+      <div class="bloc2">
+        <div class="descriptif">
+          <h2>Opel Moka</h2>
+          <p>Diesel, 5 portes, GPS, autoradio, forfait 1000km (0,5km supplémentaire),<br>
+            1150 € - Agence de Paris
+          </p>
+        </div>
+        <div class="btn btn-success">Réservez et payez</div>
+      </div>
+
+    </div>
+
+    <hr>
+
+    
+
+  </main>
+
+
+
+  <!-- FIN CORPS DE PAGE -->
+
+  <!-- DEBUT FOOTER -->
+
+  <footer>
+
+    <div id="imgfooter">
+      <img src="./Annexes/agence.jpg" alt="building agence">
+    </div>
+
+    <p id="pfooter">
+      Notre agence de Paris <br>
+      300 boulevard de Vaugirard, 75015, Paris <br>
+      Ouvert 7j/7 de 09h à 13h et de 14h à 20h <br>
+      01 49 78 21 33 <br>
+      contact@vtc.com
+    </p>
+
+
+
+
+  </footer>
+
+
+
+
+  <!-- FIN FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--script pr BS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="animations.js"></script>
+
+
+    
+    
+</body>
+</html>
